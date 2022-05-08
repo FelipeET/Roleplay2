@@ -1,6 +1,6 @@
 namespace RoleplayGame
 {
-    public class Dwarf
+    public class Dwarf : ICharacter, IDefenseItem, IAttackItem
     {
         private int health = 100;
 
@@ -29,7 +29,7 @@ namespace RoleplayGame
         {
             get
             {
-                return Shield.DefenseValue + Helmet.DefenseValue;
+                return (Shield.DefenseValue + Helmet.DefenseValue);
             }
         }
 

@@ -1,6 +1,6 @@
 namespace RoleplayGame
 {
-    public class Wizard
+    public class Wizard : ICharacter, IDefenseItem, IAttackItem
     {
         private int health = 100;
 
