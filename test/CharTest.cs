@@ -4,7 +4,7 @@ using System;
 namespace RolePlayTests
 {
    //Salta un error al intentar correr los test, no pudimos solucionarlo, 
-   //si puede explicarnos en que estamos fallando le agradezco
+   //si puede explicarnos en la retroalimentación de la terea en que estamos fallando le agradezco
    //ERROR:
    //El nombre del tipo o del espacio de nombres 'Spell' no se encontró 
    //(¿falta una directiva using o una referencia de ensamblado?
