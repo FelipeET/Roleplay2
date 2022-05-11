@@ -1,0 +1,5 @@
+C:\Users\Usuario\Desktop\RolePlay2\PII_RoleplayGame_2_Start\test\Test.Library\obj\Debug\net6.0\Test.Library.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\RolePlay2\PII_RoleplayGame_2_Start\test\Test.Library\obj\Debug\net6.0\Test.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\RolePlay2\PII_RoleplayGame_2_Start\test\Test.Library\obj\Debug\net6.0\Test.Library.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\RolePlay2\PII_RoleplayGame_2_Start\test\Test.Library\obj\Debug\net6.0\Test.Library.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\RolePlay2\PII_RoleplayGame_2_Start\test\Test.Library\obj\Debug\net6.0\Test.Library.csproj.CoreCompileInputs.cache
