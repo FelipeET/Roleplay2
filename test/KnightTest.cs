@@ -9,6 +9,7 @@ namespace RolePlayTests
     public class KnightTests
     {
       [Test]
+       //probamos el atributo Name en la clase Kight
         public void TestName()
         {
            const string expected = "elpeleador";
@@ -17,6 +18,7 @@ namespace RolePlayTests
         }
          
       [Test]
+       ////probamos el atributo Name en la clase Kight
         public void TestIfNameIsEmpty()
         {
            const string expected = " ";
@@ -25,6 +27,7 @@ namespace RolePlayTests
         }
 
       [Test]
+       //probamos el atributo AttackValue en la clase Kight
       public void TestAttackValue()
       {  
         const int expected = 20;  
@@ -34,6 +37,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo DefenseValue en la clase Kight
       public void TestDefenseValue()
       {  
         const int expected = 39;  
@@ -44,6 +48,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo Sword en la clase Kight
       public void TestAddSword()
       {
         const int expected = 20;  
@@ -53,6 +58,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos los atributos Armor y Shield en la clase Kight
       public void TestAddArmorAndShield()
       {  
         const int expected = 39;  
@@ -63,6 +69,7 @@ namespace RolePlayTests
       }
 
        [Test]
+       //probamos el metodo ReciveAttack en la clase Kight
         public void TestReciveAttack()
         {  
          const int expected = 99; 
@@ -74,6 +81,7 @@ namespace RolePlayTests
         }
 
        [Test]
+       //probamos el metodo Cure en la clase Kight
         public void TestCure()
         {
          const int expected = 100; 
