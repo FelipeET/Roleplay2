@@ -9,6 +9,7 @@ namespace RolePlayTests
     public class DwarfTests
     {
       [Test]
+       //probamos el atributo name en la clase Dwarf
         public void TestName()
         {
            const string expected = "Elenano";
@@ -17,6 +18,7 @@ namespace RolePlayTests
         }
          
       [Test]
+       //probamos el atributo name en la clase Dwarf
         public void TestIfNameIsEmpty()
         {
            const string expected = " ";
@@ -25,6 +27,7 @@ namespace RolePlayTests
         }
 
       [Test]
+       //probamos el atributo AttackValue en la clase Dwarf
       public void TestAttackValue()
       {  
         const int expected = 25;  
@@ -34,6 +37,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo DefenseValue en la clase Dwarf
       public void TestDefenseValue()
       {  
         const int expected = 32;
@@ -44,6 +48,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo Axe en la clase Dwarf
       public void TestAddAxe()
       {
         const int expected = 25;  
@@ -53,6 +58,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos los atributis Helmet y Shield en la clase Dwarf
       public void TestAddHelmetAndShield()
       {  
          const int expected = 32;
@@ -63,6 +69,7 @@ namespace RolePlayTests
       }
 
        [Test]
+       //probamos el metodo ReciveAttack en la clase Dwarf
         public void TestReciveAttack()
         {  
          const int expected = 99;
@@ -74,6 +81,7 @@ namespace RolePlayTests
         }
 
        [Test]
+       //probamos el metodo Cure en la clase Dwarf
         public void TestCure()
         {
          const int expected = 100;
