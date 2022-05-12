@@ -9,6 +9,7 @@ namespace RolePlayTests
     public class ArcherTests
     {
       [Test]
+       //probamos el atributo name de la clase Archer
         public void TestName()
         {
            const string expected = "tiraflecha";
@@ -17,6 +18,7 @@ namespace RolePlayTests
         }
          
       [Test]
+       //probamos si el nombre puede ser un espacio en blanco
         public void TestIfNameIsEmpty()
         {
            const string expected = " ";
@@ -25,6 +27,7 @@ namespace RolePlayTests
         }
 
       [Test]
+       //probamos el atributo AttackValue de la clase Archer
       public void TestAttackValue()
       {  
         const int expected = 15;  
@@ -34,6 +37,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo DefenseValue de la clase Archer
       public void TestDefenseValue()
       {  
         const int expected = 18;
@@ -43,6 +47,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo Bow de la clase Archer
       public void TestAddBow()
       {
         const int expected = 15;  
@@ -52,6 +57,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo Helmet de la clase Archer
       public void TestAddHelmet()
       {  
         const int expected = 18;
@@ -61,6 +67,7 @@ namespace RolePlayTests
       }
 
        [Test]
+       //probamos el metodo ReciveAttack de la clase Archer
         public void TestReciveAttack()
         {  
          const int expected = 99;
@@ -71,6 +78,7 @@ namespace RolePlayTests
         }
 
        [Test]
+       //probamos el metodo Cure de la clase Archer
         public void TestCure()
         {
          const int expected = 100;
