@@ -13,6 +13,6 @@ namespace RolePlayTests
                 const int expected = 20;
                 Assert.AreEqual(expected, espada.AttackValue);
             }
-//Testeamos el valor del tipo de item a ver si es correspondiente con el esperado(expected)
+//Testeamos el valor del tipo de item a ver si es correspondiente con el esperado(expected).
         }
     }
