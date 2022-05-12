@@ -4,12 +4,6 @@ using RoleplayGame;
 
 namespace RolePlayTests
 {
-   //Salta un error al intentar correr los test, no pudimos solucionarlo, 
-   //si puede explicarnos en la retroalimentación de la terea en que estamos fallando le agradezco
-   //ERROR:
-   //El nombre del tipo o del espacio de nombres 'Spell' no se encontró 
-   //(¿falta una directiva using o una referencia de ensamblado?
-
    //Repetir test para cada Personaje o usar la interface en los tests?
 
     public class CharTests
