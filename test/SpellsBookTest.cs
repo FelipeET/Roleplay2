@@ -44,6 +44,6 @@ namespace RolePlayTests
             Assert.AreEqual(book.DefenseValue, expected);
             
         }
-        
+//Testeamos el valor del tipo de item a ver si es correspondiente con el esperado(expected)        
     }
 }
