@@ -21,4 +21,5 @@ namespace RolePlayTests
                 Assert.AreEqual(expected, stafo.AttackValue);
             }
         }
+//Testeamos el valor del tipo de item a ver si es correspondiente con el esperado(expected)
     }
