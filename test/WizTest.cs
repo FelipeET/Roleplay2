@@ -9,6 +9,7 @@ namespace RolePlayTests
     public class WizTests
     {
       [Test]
+       //probamos el atributo Name de la clase Wizard
         public void TestName()
         {
            const string expected = "Gandalf";
@@ -17,6 +18,7 @@ namespace RolePlayTests
         }
          
       [Test]
+       //probamos el atributo Name de la clase Wizard
         public void TestIfNameIsEmpty()
         {
            const string expected = " ";
@@ -25,6 +27,7 @@ namespace RolePlayTests
         }
 
       [Test]
+       //probamos el atributo AttackValue de la clase Wizard
       public void TestAttackValue()
       {  
          const int expected = 170;  
@@ -37,6 +40,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo DefenseValue de la clase Wizard
       public void TestDefenseValue()
       {  
           const int expected = 170;  
@@ -49,6 +53,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos el atributo Staff de la clase Wizard
       public void TestAddStaff()
       {  
          const int expected = 170;  
@@ -61,6 +66,7 @@ namespace RolePlayTests
       }
 
       [Test]
+       //probamos los atributos Book y Spell de la clase Wizard
       public void TestAddBookAndSpell()
       {  
          const int expected = 70;  
@@ -70,6 +76,7 @@ namespace RolePlayTests
       }
 
        [Test]
+       //probamos el metodo ReciveAttack de la clase Wizard
         public void TestReciveAttack()
         {
          const int expected = 90;  
@@ -84,6 +91,7 @@ namespace RolePlayTests
 
        [Test]
         public void TestCure()
+        //probamos el metodo Cure de la clase Wizard
         {
          const int expected = 100;  
          SpellsBook book = new SpellsBook();
