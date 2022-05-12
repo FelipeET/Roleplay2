@@ -3,16 +3,22 @@ using System;
 using RoleplayGame;
 
 namespace RolePlayTests
+{
+    public class SpellTest
     {
-        public class BowTest
+        [Test]
+        public void DefensaValida()
         {
-            [Test]
-            public void AtaqueValido()
-            {
-                IAttackItem arco = new Bow();
-                const int expected = 15;
-                Assert.AreEqual(expected, arco.AttackValue);
-            }
+            IDefenseItem hechizo = new Spell();
+            const int expected = 70;
+            Assert.AreEqual(expected, hechizo.DefenseValue);
+        }
 
+        public void AtaqueValido()
+        {
+            IAttackItem hechizo = new Spell();
+            const int expected = 70;
+            Assert.AreEqual(expected, hechizo.AttackValue);
         }
     }
+}
